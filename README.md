@@ -7,11 +7,11 @@ blog post
 build image:
 
 ```
-docker build -t golang /Users/bartek/projects/docker_blog/
+docker build -t docker_golang /docker_golang/
 ```
 
 run image
 
 ```
-docker run -it -p 3000:3000 golang
+docker run -it -p 3000:3000 docker_golang
 ```
